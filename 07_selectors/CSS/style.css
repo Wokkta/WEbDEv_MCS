@@ -1,0 +1,22 @@
+body{
+	color: blue;
+
+}
+div{
+	color: red;
+}
+.second {
+	color: green;
+}
+#id{
+	color: black;
+}
+footer div{
+	color: white
+}
+nav, h2{
+	color: grey;
+}
+main .firstSection{
+	background: lightblue;
+}
