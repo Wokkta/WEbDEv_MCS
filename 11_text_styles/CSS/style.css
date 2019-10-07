@@ -2,5 +2,9 @@
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: underline;
-	text-shadow: 5px 5px 10px red;
+	text-shadow: 1px 1px 5px black;
+}
+.paragraph p {
+	line-height: 30px;
+	letter-spacing: 2.5px
 }
