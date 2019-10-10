@@ -1,0 +1,31 @@
+@import url(reset.css)
+.header{
+	width: 500px;
+	height: 200px;
+	background-color: blue;
+	background-image: url(../img/headwbackground.img);
+	-webkit-background-size: ;
+	background-size: cover ;<!--Contein-->
+	background-repeat: none;
+	background-position: center;
+}
+body{
+	background: 
+}
+.heading_img{
+	background-position: center;
+	height: 300px;
+	background-position: center;
+	
+	background-image: url(../img/headwbackground.img);
+
+	background-attachment: fixed;
+	}
+.header_words{
+	height: 300px;
+	background-position: center;
+	
+	background-image: url(../img/headwbackground.img);
+
+	background-attachment: fixed;
+}
