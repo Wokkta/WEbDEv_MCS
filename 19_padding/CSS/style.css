@@ -1,0 +1,8 @@
+@import url(reset.css)
+
+div{
+	width: 100px;
+	height: 600px;
+	background-color: yellow
+
+}
