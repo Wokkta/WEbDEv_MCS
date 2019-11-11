@@ -1,0 +1,24 @@
+@import url(reset.css);
+div{
+	width: 200px;
+	display: inline-block;
+}
+.one{
+	height: 200px;
+	background-color: blue;
+
+}
+.two{
+	height: 200px;
+	background-color: green;
+
+}
+img{
+	width: 400px;
+}
+a{
+	width: 200px;
+	height: 100px;
+	display: block;
+	margin: auto;
+}
