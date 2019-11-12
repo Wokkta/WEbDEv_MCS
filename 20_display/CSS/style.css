@@ -2,6 +2,7 @@
 div{
 	width: 200px;
 	display: inline-block;
+	vertical-align: top;
 }
 .one{
 	height: 200px;
