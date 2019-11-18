@@ -1,0 +1,9 @@
+@import url(reset.css);
+.clear{
+	clear: both;
+}
+img {
+	float: left;
+	height: 400px;
+	width: 400px;
+}
