@@ -2,7 +2,7 @@
 .one{
 	background-color: red;
 	height: 5px;
-	width: 700px;
+	width: all;
 	display: fixed block;
 	font-family: 'Odibee Sans', cursive;
 	color:  white;
@@ -16,21 +16,27 @@ h1{
 }
 h1.inner_section_name{
 	display: block;
+	padding-left: auto;
+	padding-right: ;
+	border-color: white;
 }
 .inner{
 
 	border-radius: 50px;
 	border-top: 5px double yellow;
 		width: 200px ;
-	height: 300px;
-	border-top: 5px double yellow;
-	border-left : 5px double yellow;
-	border-bottom:5px double yellow;
-	border-right: 5px double yellow;
+	height: 100%;
+	border-top: 10px double yellow;
+	border-left : 10px double yellow;
+	border-bottom:10px double yellow;
+	border-right: 10px double yellow;
 	border-radius: 50px;
 	display: inline-block;
 	vertical-align: top;
 	margin: 50px;
+	padding-right: 10px;
+	padding-top: 10px;i
+
 }
 a{
 	position: absolute;
@@ -42,8 +48,11 @@ header{
 	top:0;
 	 margin-left: auto;
     margin-right: auto;
+    padding-left: auto;
+    width: 100%;
 }
 .footer{
 	position: absolute;
 	 bottom: 0;
+	 width: 100%;
 }
