@@ -1,0 +1,3 @@
+https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/
+https://learn.javascript.ru/css-selectors
+https://learn.moscoding.ru/courses/take/web/lessons/4792555-flex-items
