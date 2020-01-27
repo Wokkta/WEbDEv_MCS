@@ -4,7 +4,7 @@
 body{
 	height: 3300px;
 	width: 1440px;
-	position: flex;
+	display: flex;
 	align-content: space-between;
 
 
@@ -21,6 +21,10 @@ body{
  top: 0px;
  border:4px double black;
 }
-a{
-	align-self:flex-start; 
+.menu{
+
+}
+.header{
+	display: flex;
+	justify-content: space-between;
 }
