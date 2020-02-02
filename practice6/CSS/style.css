@@ -4,25 +4,17 @@
 body{
 	height: 3300px;
 	width: 1440px;
-	display: flex;
-	align-content: space-between;
-
 
 }
-.pic{
-	 	
-	width: 1440px;
-	height: 950px;
-	left: 0px;
-	top: 140px;
-}
+
 .one{
  left: 0px;
  top: 0px;
  border:4px double black;
 }
 .menu{
-
+	display: flex;
+	justify-content: space-between;
 }
 .header{
 	display: flex;
