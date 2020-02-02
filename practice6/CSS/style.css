@@ -20,3 +20,6 @@ body{
 	display: flex;
 	justify-content: space-between;
 }
+.img{
+	background-image: url(img/evian.img);
+}
