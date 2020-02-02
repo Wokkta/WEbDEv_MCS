@@ -19,6 +19,7 @@ body{
 .header{
 	display: flex;
 	justify-content: space-between;
+	margin: auto;
 }
 .img{
 	background-image: url(img/evian.img);
@@ -28,4 +29,7 @@ body{
 .main_text{
 	align-self: center;
 	 border:4px double black;
+}
+.end_words{
+	justify-content: flex-end;
 }
