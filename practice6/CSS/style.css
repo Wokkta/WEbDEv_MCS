@@ -25,3 +25,7 @@ body{
 	height: 950px;
 	width: 1440px;
 }
+.main_text{
+	align-self: center;
+	 border:4px double black;
+}
