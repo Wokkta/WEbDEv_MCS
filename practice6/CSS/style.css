@@ -22,4 +22,6 @@ body{
 }
 .img{
 	background-image: url(img/evian.img);
+	height: 950px;
+	width: 1440px;
 }
