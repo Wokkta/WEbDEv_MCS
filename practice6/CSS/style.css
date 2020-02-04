@@ -28,5 +28,6 @@ body{
 	 border:4px double black;
 }
 .end_words{
+	display: flex;
 	justify-content: flex-end;
 }
