@@ -7,12 +7,9 @@ body{
 
 }
 
-.one{
- left: 0px;
- top: 0px;
- border:4px double black;
-}
+
 .menu{
+	width: 150px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -22,7 +19,7 @@ body{
 	margin: auto;
 }
 .img{
-	background-image: url(img/evian.img);
+	background-image: url(/img/evian.img);
 	height: 950px;
 	width: 1440px;
 }
