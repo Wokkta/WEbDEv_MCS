@@ -45,3 +45,6 @@ body{
 	justify-content: space-between;
 	flex-direction: column;
 }
+.freeplace{
+	height: 100px;
+}
