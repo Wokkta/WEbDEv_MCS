@@ -57,21 +57,23 @@ body{
 }
 .bottles_image{
 	display: flex;
-	width: 100px;
 	justify-content: space-around;
 	
 }
 .bottles-img1{
+		width: 100px;
 	background-image: url(../img/evian.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
 .bottles-img2{
+		width: 100px;
 	background-image: url(../img/evian.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
 .bottles-img3{
+		width: 100px;
 	background-image: url(../img/evian.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
