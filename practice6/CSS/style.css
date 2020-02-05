@@ -6,7 +6,9 @@ body{
 	width: 1440px;
 
 }
-
+.logo{
+	align-content: flex-start;
+}
 
 .menu{
 	width: 150px;
@@ -27,6 +29,8 @@ body{
 	width: 1440px;
 }
 .main_text{
+	width: 932px;
+	height: auto;
 	align-self: center;
 	 border:4px double black;
 }
@@ -50,4 +54,25 @@ body{
 }
 .freeplace{
 	height: 100px;
+}
+.bottles_image{
+	display: flex;
+	width: 100px;
+	justify-content: space-around;
+	
+}
+.bottles-img1{
+	background-image: url(../img/evian.jpg);
+	background-size: cover ;<!--Contein-->
+	background-repeat: no-repeat;
+}
+.bottles-img2{
+	background-image: url(../img/evian.jpg);
+	background-size: cover ;<!--Contein-->
+	background-repeat: no-repeat;
+}
+.bottles-img3{
+	background-image: url(../img/evian.jpg);
+	background-size: cover ;<!--Contein-->
+	background-repeat: no-repeat;
 }
