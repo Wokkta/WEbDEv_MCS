@@ -19,7 +19,7 @@ body{
 	margin: auto;
 }
 .img{
-	background-image: url(/img/evian.img);
+	background-image: url(/img/evian.jpg);
 	height: 950px;
 	width: 1440px;
 }
@@ -30,4 +30,17 @@ body{
 .end_words{
 	display: flex;
 	justify-content: flex-end;
+}
+.bottles{
+	display: flex;
+	width: auto;
+	justify-content: space-around;
+	
+}
+.bottles_flex_box{
+	width: 100px;
+}
+.page{
+	display: flex;
+	justify-content: space-between;
 }
