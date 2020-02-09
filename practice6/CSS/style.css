@@ -61,20 +61,23 @@ body{
 	
 }
 .bottles-img1{
-		width: 100px;
-	background-image: url(../img/evian.jpg);
+	height:1000px;
+		width: 300px;
+	background-image: url(../img/wang.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
 .bottles-img2{
-		width: 100px;
-	background-image: url(../img/evian.jpg);
+	height:1000px;
+		width: 300px;
+	background-image: url(../img/blue.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
 .bottles-img3{
-		width: 100px;
-	background-image: url(../img/evian.jpg);
+	height:1000px;
+		width: 300px;
+	background-image: url(../img/chiara.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
