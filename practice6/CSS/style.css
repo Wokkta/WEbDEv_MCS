@@ -81,3 +81,8 @@ body{
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
+.copyright{
+	display: flex;
+	justify-content: flex-end;
+	align-items:  flex-start;
+}
