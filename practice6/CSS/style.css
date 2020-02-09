@@ -83,6 +83,14 @@ body{
 }
 .copyright{
 	display: flex;
+	justify-content: flex-start;
+	align-items:  center;
+	background-color: #F8BFC7;
+	height: 50px;
+
+}
+.er{
+	display: flex;
+	align-items: center;
 	justify-content: flex-end;
-	align-items:  flex-start;
 }
