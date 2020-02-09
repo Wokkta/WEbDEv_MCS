@@ -32,7 +32,8 @@ body{
 	width: 932px;
 	height: auto;
 	align-self: center;
-	 border:4px double black;
+	 border:4px solid #F8BFC7;
+	 border-radius:5px;
 }
 .end_words{
 	display: flex;
