@@ -22,7 +22,7 @@ body{
 	margin: auto;
 }
 .img{
-	background-image: url(../img/evian.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/evian.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 	background-position: center;
