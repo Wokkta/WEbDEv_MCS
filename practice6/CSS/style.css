@@ -97,6 +97,6 @@ body{
 	justify-content: flex-end;
 }
 .bottles-img1:hover{
- transform: skew(20deg,0deg);
+ transform: scale(1.5,1.5);
 }
 
