@@ -16,14 +16,14 @@ img{
 	width: 700px;
 	height: 50px;
 	border-radius: 5px;
-	background-image: linear-gradient(to left bottom , orange,black );
+
 }
 body{
 	background-color: white;
 	background-position: center;
 	background-attachment: fixed;
 	
-	color: rgb(73,165,186);
+	color: #483D8B;
 
 }
 a{

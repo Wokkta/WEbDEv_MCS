@@ -19,7 +19,7 @@ body{
 .header{
 	display: flex;
 	justify-content: space-between;
-	margin: auto;
+	marginb : auto;
 }
 .img{
 	background-image: url(../img/evian.jpg);
@@ -95,4 +95,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+}
+.bottles-img1:hover{
+ transform: skew(20deg,0deg);
 }
