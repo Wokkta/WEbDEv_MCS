@@ -19,10 +19,10 @@ body{
 .header{
 	display: flex;
 	justify-content: space-between;
-	marginb : auto;
+	margin : auto;
 }
 .img{
-	background-image: url(../img/evian.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/evian.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 	background-position: center;
@@ -65,21 +65,21 @@ body{
 .bottles-img1{
 	height:1000px;
 		width: 300px;
-	background-image: url(../img/wang.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
 .bottles-img2{
 	height:1000px;
 		width: 300px;
-	background-image: url(../img/blue.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/blue.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
 .bottles-img3{
 	height:1000px;
 		width: 300px;
-	background-image: url(../img/chiara.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/chiara.jpg);
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
@@ -99,3 +99,4 @@ body{
 .bottles-img1:hover{
  transform: skew(20deg,0deg);
 }
+
