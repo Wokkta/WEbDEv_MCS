@@ -9,14 +9,13 @@ height: 160px;
 .text{
 width: 705px;
 height: 57px;
-left: 368px;
-top: 52px;
+
 
 font-family: Times New Roman;
 font-size: 50px;
 line-height: 57px;
 text-align: center;
-
+padding: auto;
 }
 .types{
 	display: flex;
