@@ -1,0 +1,21 @@
+@import url(reset.css);
+.columns{
+	width: 80vw;
+	margin: auto;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items:stretch ;
+	background-color: lightgray;
+}
+.column{
+	width: calc((100%-40px)/3);
+	background-color: lightblue;
+}
+/* creating responsive*/
+.image{
+	background-image: url(https://ae01.alicdn.com/kf/HTB1bPbfMXXXXXc.XpXXq6xXFXXXA/Alarm-Clock-Digital-Kitchen-Timer-Touch-Screen-Kitchen-Cooking-timer-Magnetic-Adsorption-Kitchen-Timer.jpg);
+	background-size:cover ;
+	background-position:center;
+	padding-bottom: 100%;
+}

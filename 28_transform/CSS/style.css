@@ -5,6 +5,8 @@ div{
 	background-color: blue;
 	margin: 20px auto;
 	transition-duration: 1s;
+	color: white;
+	
   }
   /*сдвиг эл*/
 .translate:hover{

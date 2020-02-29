@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+.header{
+display: flex;
+width: 100vw;
+background-color: #FEB700;
+height: 160px;
+}
+.text{
+width: 705px;
+height: 57px;
+
+
+font-family: Times New Roman;
+font-size: 50px;
+line-height: 57px;
+text-align: center;
+padding: auto;
+}
+.types{
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+.page{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+.types_1{
+	display: flex;
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
+	height: 40vh;
+	width: 40vw;
+		background-size: cover ;<!--Contein-->
+	background-repeat: no-repeat;
+}
+.types_2{
+	display: flex;
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
+	height: 40vh;
+	width: 40vw;
+		background-size: cover ;<!--Contein-->
+	background-repeat: no-repeat;
+}
+.types_3{
+	display: flex;
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
+	height: 40vh;
+	width: 40vw;
+		background-size: cover ;<!--Contein-->
+	background-repeat: no-repeat;
+}
