@@ -1,2 +1,10 @@
 @import url(reset.css);
 
+.outer{
+	background-color: black;
+	height: 300px;
+	width: 500px;
+}
+.inner{
+	
+}
