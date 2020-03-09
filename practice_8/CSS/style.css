@@ -26,7 +26,6 @@ padding: auto;
 .page{
 	width: 1440px;
 	height: 2426px;<!--заменитьна100отокнадлявысотыишир-->
-	margin: 10px;
 
 }
 .types_1{
@@ -55,4 +54,8 @@ padding: auto;
 }
 .menu{
 	margin: auto;
+}
+.end{
+	margin:auto;
+	display: inline-flex;
 }
