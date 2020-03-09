@@ -1,5 +1,7 @@
 @import url(reset.css);
-
+*{
+	box-sizing: border-box;
+}
 .header{
 display: flex;
 width: 100vw;
@@ -20,21 +22,24 @@ padding: auto;
 	display: flex;
 	justify-content: space-around;
 	border: 1px solid black;
-	box-sizing: border-box;
+	padding-right: 50px;
+	padding-left:50px;
 
 }
 .page{
 	width: 1440px;
-	height: 2426px;<!--заменитьна100отокнадлявысотыишир-->
-	
+	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
+	flex-wrap:wrap;
+
 
 }
 .types_1{
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
 	height:1000px;
 	width: 300px;
-		background-size: cover ;<!--Contein-->
+	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
+	border: 1px solid red;
 }
 
 .types_2{
@@ -42,8 +47,9 @@ padding: auto;
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
 	height:1000px;
 	width: 300px;
-		background-size: cover ;<!--Contein-->
+	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
+	border: 1px solid red;
 }
 .types_3{
 
@@ -52,13 +58,18 @@ padding: auto;
 	width: 300px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
+	border: 1px solid red;
 }
 .menu{
 	margin: auto;
 }
 .footer{
-
+bottom: 0px;
 width: 100vw;
 background-color: #FEB700;
 max-height: 160px;
+}
+.free_plase{
+	height: 100px;
+	width: 100px;
 }
