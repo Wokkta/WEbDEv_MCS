@@ -34,7 +34,7 @@ padding: auto;
 
 }
 .types_1{
-	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice8//Img/Samosa Sweet Potatoes Wraps with Tofu Scramble.jpg);
 	height:1000px;
 	width: 300px;
 	background-size: cover ;<!--Contein-->
@@ -82,4 +82,8 @@ max-height: 160px;
 .date{
 	left: 0px;
 
+}
+.end{
+	display:flex;
+justify-content:space-between;
 }
