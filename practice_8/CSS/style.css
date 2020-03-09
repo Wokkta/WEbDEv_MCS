@@ -65,6 +65,7 @@ padding: auto;
 }
 .footer{
 position: absolute;
+display: inline-block;
 bottom: 0px;
 width: 100vw;
 background-color: #FEB700;
@@ -73,4 +74,12 @@ max-height: 160px;
 .free_place{
 	height: 100px;
 	width: 100px;
+}
+.a{
+	right: 0px;
+
+}
+.date{
+	left: 0px;
+	
 }
