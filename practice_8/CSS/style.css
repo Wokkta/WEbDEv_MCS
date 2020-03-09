@@ -21,14 +21,10 @@ padding: auto;
 	justify-content: space-around;
 	border: 1px solid black;
 	box-sizing: border-box;
-	padding: auto;
 
 }
 .page{
 	
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
 	width: 1440px;
 	height: 2426px;<!--заменитьна100отокнадлявысотыишир-->
 	padding: auto;
