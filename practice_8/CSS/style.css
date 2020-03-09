@@ -64,12 +64,13 @@ padding: auto;
 	margin: auto;
 }
 .footer{
+position: absolute;
 bottom: 0px;
 width: 100vw;
 background-color: #FEB700;
 max-height: 160px;
 }
-.free_plase{
+.free_place{
 	height: 100px;
 	width: 100px;
 }
