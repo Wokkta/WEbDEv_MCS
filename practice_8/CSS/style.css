@@ -26,6 +26,7 @@ padding: auto;
 .page{
 	width: 1440px;
 	height: 2426px;<!--заменитьна100отокнадлявысотыишир-->
+	padding-left: 50px;
 
 }
 .types_1{
@@ -55,7 +56,9 @@ padding: auto;
 .menu{
 	margin: auto;
 }
-.end{
-	margin:auto;
-	display: inline-flex;
+.footer{
+
+width: 100vw;
+background-color: #FEB700;
+max-height: 160px;
 }
