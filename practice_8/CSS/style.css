@@ -21,6 +21,8 @@ padding: auto;
 	justify-content: space-around;
 	border: 1px solid black;
 	box-sizing: border-box;
+	padding: auto;
+
 }
 .page{
 	
@@ -29,12 +31,13 @@ padding: auto;
 	flex-direction: column;
 	width: 1440px;
 	height: 2426px;<!--заменитьна100отокнадлявысотыишир-->
+	padding: auto;
+
 }
 .types_1{
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
-	justify-content: space-between;
-	height: 40vh;
-	width: 40vw;
+	height:1000px;
+	width: 300px;
 		background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
@@ -42,18 +45,16 @@ padding: auto;
 .types_2{
 
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
-	justify-content: space-between;
-	height: 40vh;
-	width: 40vw;
+	height:1000px;
+	width: 300px;
 		background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
 .types_3{
 
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice6//Img/wang.jpg);
-	justify-content: space-between;
-	height: 40vh;
-	width: 40vw;
+	height:1000px;
+	width: 300px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 }
