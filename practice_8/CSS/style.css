@@ -24,10 +24,9 @@ padding: auto;
 
 }
 .page{
-	
 	width: 1440px;
 	height: 2426px;<!--заменитьна100отокнадлявысотыишир-->
-	padding: auto;
+	margin: 10px;
 
 }
 .types_1{
