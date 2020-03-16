@@ -20,6 +20,7 @@ padding: auto;
 .types{
 	align-content: stretch;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 	border: 1px solid black;
 	padding-right: 50px;
