@@ -45,7 +45,6 @@ padding: auto;
 	width: 1440px;
 	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
 	flex-wrap:wrap;
-	display: flex;
 
 
 }
