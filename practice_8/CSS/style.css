@@ -39,14 +39,14 @@ padding: auto;
 	padding-right: 50px;
 	padding-left:50px;
 	width: auto;
+	padding-top: 1000px;
 
 }
 .page{
+	width: 1440px;
 	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
 	flex-wrap:wrap;
-	width: auto;
-	justify-content: space-around;
-
+	display: flex;
 
 
 }
