@@ -63,19 +63,27 @@ padding: auto;
 
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.jpg);
 	height:1000px;
-	width: 300px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 	border: 1px solid red;
+	
+	width: 400px;
+	height: 600px;
+	left: 70px;
+	top: 230px;
 }
 .types_3{
 
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.jpg);
 	height:1000px;
-	width: 300px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 	border: 1px solid red;
+	
+	width: 400px;
+	height: 600px;
+	left: 70px;
+	top: 230px;
 }
 .menu{
 	margin: auto;
