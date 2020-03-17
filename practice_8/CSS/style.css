@@ -57,7 +57,7 @@ padding: auto;
 }
 .page{
 	width: 100%;
-	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
+	height: calc(100vh - 160px);/*<!--заменитьна100отокнадлявысотыишир-->*/
 	flex-wrap:wrap;
 
 
@@ -78,7 +78,7 @@ padding: auto;
 
 .types_2{
 
-	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Frozen Yogurt Breakfast Bars.jpg);
+	background-image: url("https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Frozen Yogurt Breakfast Bars.jpg");
 	height:1000px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
@@ -91,7 +91,7 @@ padding: auto;
 }
 .types_3{
 
-	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Healthiest Ever Granola.jpg);
+	background-image: url("https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Healthiest Ever Granola.jpg");
 	height:1000px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
