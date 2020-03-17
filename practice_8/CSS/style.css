@@ -2,10 +2,7 @@
 *{
 	box-sizing: border-box;
 }
-.html{
-	width: 1440px;
-height: 160px;
-}
+
 .header{
 display: flex;
 width: 100vw;
@@ -50,7 +47,7 @@ padding: auto;
 	justify-content: space-around;
 	padding-right: 50px;
 	padding-left:50px;
-	width: auto;
+	width: calc(100%-)/3;
 
 }
 .text_main{
@@ -58,7 +55,7 @@ padding: auto;
 
 }
 .page{
-	width: 100%;
+	width: 100vh;
 	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
 	flex-wrap:wrap;
 
@@ -72,7 +69,7 @@ padding: auto;
 	background-repeat: no-repeat;
 	border: 1px solid red;
 	
-	width: calc(100vw)/3;
+	width: calc(100%)/3;
 	height: 600px;
 	left: 70px;
 	top: 230px;
@@ -86,7 +83,7 @@ padding: auto;
 	background-repeat: no-repeat;
 	border: 1px solid red;
 	
-	width: calc(100vw)/3;
+	width: calc(100%)/3;
 	height: 600px;
 	left: 70px;
 	top: 230px;
@@ -99,7 +96,7 @@ padding: auto;
 	background-repeat: no-repeat;
 	border: 1px solid red;
 	
-	width: calc(100vw)/3;
+	width: calc(100%)/3;
 	height: 600px;
 	left: 70px;
 	top: 230px;
