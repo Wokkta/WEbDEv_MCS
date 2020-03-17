@@ -48,11 +48,15 @@ padding: auto;
 }
 .types_1{
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.jpg);
-position: absolute;
-width: 400px;
-height: 600px;
-left: 70px;
-top: 230px;
+	height:1000px;
+	background-size: cover ;<!--Contein-->
+	background-repeat: no-repeat;
+	border: 1px solid red;
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	left: 70px;
+	top: 230px;
 }
 
 .types_2{
