@@ -21,10 +21,10 @@ padding: auto;
 	border: 1px solid black;
 	display: flex;
 	justify-content: space-around;
+	align-content: center;
 
 }
 .types{
-	align-content: stretch;
 	display: flex;
 	justify-content: space-around;
 	padding-right: 50px;
@@ -33,7 +33,6 @@ padding: auto;
 
 }
 .text_main{
-	align-content: stretch;
 	display: flex;
 	justify-content: space-around;
 	padding-right: 50px;
