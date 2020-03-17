@@ -19,9 +19,7 @@ padding: auto;
 }
 .border{
 	border: 1px solid black;
-	align-content: stretch;
-	display: flex;
-	justify-content: space-around;
+
 }
 .types{
 	align-content: stretch;
@@ -29,6 +27,7 @@ padding: auto;
 	justify-content: space-around;
 	padding-right: 50px;
 	padding-left:50px;
+	width: auto;
 
 }
 .text_main{
@@ -37,6 +36,7 @@ padding: auto;
 	justify-content: space-around;
 	padding-right: 50px;
 	padding-left:50px;
+	width: auto;
 
 }
 .page{
