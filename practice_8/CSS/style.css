@@ -19,7 +19,8 @@ padding: auto;
 }
 .border{
 	border: 1px solid black;
-	position: center;
+	display: flex;
+	align-items: center;
 
 }
 .types{
