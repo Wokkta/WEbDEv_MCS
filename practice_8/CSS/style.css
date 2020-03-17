@@ -43,7 +43,7 @@ padding: auto;
 }
 .types{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	padding-right: 50px;
 	padding-left:50px;
 	width: auto;
