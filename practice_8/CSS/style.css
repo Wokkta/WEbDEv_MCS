@@ -48,6 +48,7 @@ padding: auto;
 	padding-right: 50px;
 	padding-left:50px;
 	width: auto;
+	margin: auto;
 
 }
 .text_main{
@@ -77,7 +78,7 @@ padding: auto;
 
 .types_2{
 
-	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Frozen Yogurt Breakfast Bars.jpg);
 	height:1000px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
@@ -90,7 +91,7 @@ padding: auto;
 }
 .types_3{
 
-	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.jpg);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Healthiest Ever Granola.jpg);
 	height:1000px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
