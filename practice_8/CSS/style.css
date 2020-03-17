@@ -23,6 +23,7 @@ padding: auto;
 	justify-content: space-around;
 	align-content: center;
 	width: auto;
+	margin-top: 100px;
 
 }
 .types{
@@ -45,7 +46,7 @@ padding: auto;
 	width: 1440px;
 	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
 	flex-wrap:wrap;
-	
+
 
 
 }
@@ -98,10 +99,6 @@ bottom: 0px;
 width: 100vw;
 background-color: #FEB700;
 max-height: 160px;
-}
-.free_place{
-	height: 100px;
-	width: 100px;
 }
 .a{
 	right: 0px;
