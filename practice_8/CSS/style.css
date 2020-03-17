@@ -47,7 +47,7 @@ padding: auto;
 	justify-content: space-around;
 	padding-right: 50px;
 	padding-left:50px;
-	width: calc(100%-)/3;
+	width: auto;
 
 }
 .text_main{
@@ -55,7 +55,7 @@ padding: auto;
 
 }
 .page{
-	width: 100vh;
+	width: 100%;
 	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
 	flex-wrap:wrap;
 
