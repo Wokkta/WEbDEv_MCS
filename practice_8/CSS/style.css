@@ -18,10 +18,9 @@ text-align: center;
 padding: auto;
 }
 .border{
-	border: 1px solid black;
 	display: flex;
 	justify-content: space-around;
-	align-content: center;
+
 
 }
 .types{
