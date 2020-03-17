@@ -42,7 +42,7 @@ padding: auto;
 
 }
 .page{
-	width: 1440px;+
+	width: 1440px;
 	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
 	flex-wrap:wrap;
 
