@@ -49,7 +49,7 @@ padding: auto;
 .types_1{
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.jpg);
 	height:auto;
-	width: auto;
+	width: 80px;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
 	border: 1px solid red;
