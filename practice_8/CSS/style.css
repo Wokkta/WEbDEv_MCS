@@ -2,6 +2,10 @@
 *{
 	box-sizing: border-box;
 }
+.html{
+	width: 1440px;
+height: 160px;
+}
 .header{
 display: flex;
 width: 100vw;
@@ -43,22 +47,18 @@ padding: auto;
 }
 .types{
 	display: flex;
-	justify-content: center;
-	padding-right: 50px;
-	padding-left:50px;
-	width: auto;
-
-}
-.text_main{
-	display: flex;
 	justify-content: space-around;
 	padding-right: 50px;
 	padding-left:50px;
 	width: auto;
 
 }
+.text_main{
+	width: 400px;
+
+}
 .page{
-	width: 1440px;
+	width: 100%;
 	height: calc(100vh - 160px);<!--заменитьна100отокнадлявысотыишир-->
 	flex-wrap:wrap;
 
@@ -72,7 +72,7 @@ padding: auto;
 	background-repeat: no-repeat;
 	border: 1px solid red;
 	
-	width: 400px;
+	width: calc(100vw)/3;
 	height: 600px;
 	left: 70px;
 	top: 230px;
@@ -86,7 +86,7 @@ padding: auto;
 	background-repeat: no-repeat;
 	border: 1px solid red;
 	
-	width: 400px;
+	width: calc(100vw)/3;
 	height: 600px;
 	left: 70px;
 	top: 230px;
@@ -99,7 +99,7 @@ padding: auto;
 	background-repeat: no-repeat;
 	border: 1px solid red;
 	
-	width: 400px;
+	width: calc(100vw)/3;
 	height: 600px;
 	left: 70px;
 	top: 230px;
