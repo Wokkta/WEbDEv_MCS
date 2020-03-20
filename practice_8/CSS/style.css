@@ -29,32 +29,30 @@ padding: auto;
 }*/
 .types_1_plus_text{
 	border: 1px solid black;
-	width: auto;
-	margin-top: 100px;
+	width: calc(100vw/3-100px);
 	margin-right: 50px;
 	margin-left: 50px;
 }
 .types_2_plus_text{
 	border: 1px solid black;
-	width: auto;
-	margin-top: 100px;
+	width: calc(100vw/3-100px);
 	margin-right: 50px;
 	margin-left: 50px;
 }
 .types_3_plus_text{
 	border: 1px solid black;
-	width: auto;
-	margin-top: 100px;
+	width: calc(100vw/3-100px);
 	margin-right: 50px;
 	margin-left: 50px;
 }
 .types{
 	display: flex;
-	
+	padding-top: 100px;
 	padding-right: 50px;
 	padding-left:50px;
-	width: auto;
-	margin: auto;
+	width: 100vw;
+	margin: 0 auto;
+	justify-content: center;
 
 }
 .text_main{
