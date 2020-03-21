@@ -18,81 +18,82 @@ line-height: 57px;
 text-align: center;
 padding: auto;
 }
-.types_1_plus_text{
+.column{
 	border: 1px solid black;
-	width: calc(100vw/3-100px);
-	margin-right: 50px;
-	margin-left: 50px;
-}
-.types_2_plus_text{
-	border: 1px solid black;
-	width: calc(100vw/3-100px);
-	margin-right: 50px;
-	margin-left: 50px;
-}
-.types_3_plus_text{
-	border: 1px solid black;
-	width: calc(100vw/3-100px);
-	margin-right: 50px;
-	margin-left: 50px;
-}
-.types{
-	display: flex;
-	padding-top: 100px;
-	padding-right: 50px;
-	padding-left:50px;
-	width: 100vw;
-	margin: 0 auto;
-	justify-content: center;
+	width: calc((100%-100px)/3);
+	left: 20px;
+
 
 }
-.text_main{
-	width: 400px;
+.column{
+	border: 1px solid black;
+	width: calc((100%-100px)/3);
+	left: 20px;
+
+
+}
+.column{
+	border: 1px solid black;
+	width: calc((100%-100px)/3);
+	left: 20px;
+
+
+}
+.columns{
+	display: flex;
+	padding-top: 100px;
+	width: 100vw;
+	margin:auto;
+	justify-content: space-between;
+	align-items: stretch;
+	min-height: 500px;
+	
 
 }
 .page{
-	width: 100vw;
+	width: 100vh;
 	height: calc(100vh - 160px);/*<!--заменитьна100отокнадлявысотыишир-->*/
 	flex-wrap:wrap;
 
 
 
+
 }
-.types_1{
+.image_1{
 	background-image: url(https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.jpg);
-	height:1000px;
+	padding-bottom: 100%;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
-	border: 1px solid red;
 	
-	height: 600px;
+	
+	background-position:center;
 	left: 70px;
 	top: 230px;
 }
 
-.types_2{
+.image_2{
 
 	background-image: url("https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Frozen Yogurt Breakfast Bars.jpg");
-	height:1000px;
+	padding-bottom: 100%;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
-	border: 1px solid red;
 	
 	
-	height: 600px;
+	
+	background-position:center;
 	left: 70px;
 	top: 230px;
 }
-.types_3{
+.image_3{
 
 	background-image: url("https://wokkta.github.io/WEbDEv_MCS/practice_8/Img/Healthiest Ever Granola.jpg");
-	height:1000px;
+	padding-bottom: 100%;
 	background-size: cover ;<!--Contein-->
 	background-repeat: no-repeat;
-	border: 1px solid red;
 	
 	
-	height: 600px;
+	
+	background-position:center;
 	left: 70px;
 	top: 230px;
 }
@@ -106,14 +107,6 @@ bottom: 0px;
 width: 100vw;
 background-color: #FEB700;
 max-height: 160px;
-}
-.a{
-	right: 0px;
-
-}
-.date{
-	left: 0px;
-
 }
 .end{
 	display:flex;
