@@ -44,7 +44,7 @@ padding: auto;
 	padding-top: 100px;
 	width: 100vw;
 	margin:auto;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: stretch;
 	min-height: 500px;
 	
