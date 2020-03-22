@@ -13,7 +13,6 @@ font-size: 25px;
 line-height: 29px;
 display: flex;
 align-items:  center;
-flex-grow: 1;
 
 }
 footer{
@@ -43,14 +42,11 @@ border:5px solid black;
 height: 300px;
 }
 .content{
-	flex-grow: 2;
 	display: flex;
 	width: 100vw;
 	justify-content: space-around;
 	margin:auto;
 	flex-direction: ;
-}
-body{
-	display: flex;
-	flex-direction: column;
+	height: 1024px;
+	
 }

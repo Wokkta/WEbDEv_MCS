@@ -47,6 +47,7 @@ padding: auto;
 	justify-content: space-around;
 	align-items: stretch;
 	min-height: 500px;
+	
 
 	
 
@@ -95,6 +96,7 @@ bottom: 0px;
 width: 100vw;
 background-color: #FEB700;
 max-height: 160px;
+
 }
 .end{
 	display:flex;
