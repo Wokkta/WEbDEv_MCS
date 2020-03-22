@@ -46,7 +46,7 @@ padding: auto;
 	margin:auto;
 	justify-content: space-around;
 	align-items: stretch;
-	min-height: 500px;
+	min-height: 100vh;
 	
 
 	
@@ -91,16 +91,28 @@ padding: auto;
 }
 .footer{
 position: absolute;
-display: inline-block;
-bottom: 0px;
+display: flex;
+
 width: 100vw;
 background-color: #FEB700;
-max-height: 160px;
+min-height: 160px;
 align-items: center;
 text-align: center;
+margin-top: 100vh;
+
 
 }
 .end{
+	width: 100vw;
 	display:flex;
 justify-content:space-between;
+margin:20px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 57px;
+}
+h1{
+	margin:10px 0;
 }
