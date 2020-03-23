@@ -45,6 +45,7 @@ line-height: 29px;
 	border:5px solid black;
 	height: 300px;
 	width: calc((100% - 100px)/4);
+	max-width: 600px;
 
 
 }
@@ -71,14 +72,16 @@ a{
 
 	}
 	.content{
-		width: 100%;
+		width: calc(100%-46px);
 		flex-direction: column;
 		text-align: center;
+
 
 		
 	}
 	.materials{
 		width: 100%;
+		margin-top: 20px;
 
 
 	}
