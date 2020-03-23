@@ -2,6 +2,10 @@
 *{
 	box-sizing: border-box;
 }
+body{
+	width: 100vw;
+	height: 100vh;
+}
 .header{
 	height: 100px;
 	background-color: #0000FF;
@@ -31,24 +35,34 @@ line-height: 29px;
 }
 .materials{
 	font-family: Helvetica;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 57px;
-display: flex;
-align-items: center;
-text-align: center;
-border:5px solid black;
-height: 300px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border:5px solid black;
+	height: 300px;
+	width: calc((100% - 100px)/4);
+
+
 }
 .content{
 	display: flex;
-	width: 100vw;
+	 width: calc(100% - 100px);
 	justify-content: space-around;
 	margin:auto;
-
-	height: 1024px;
 	
+	padding-top: 102px;
+	padding-bottom:102px;
+
+
+	
+}
+a{
+	color:white;
+	text-decoration: none;
 }
 @media screen and (max-width: 600px){
 	header	{
@@ -56,12 +70,16 @@ height: 300px;
 		background-color: black;
 
 	}
-	content{
+	.content{
 		width: 100%;
-		background-color: red;
 		flex-direction: column;
+		text-align: center;
+
+		
 	}
-	footer{
-		background-color: black;
+	.materials{
+		width: 100%;
+
+
 	}
 }
