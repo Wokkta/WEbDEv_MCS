@@ -37,7 +37,7 @@ line-height: 29px;
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: calc(100vw/38);
 	line-height: 57px;
 	display: flex;
 	align-items: center;
@@ -81,8 +81,9 @@ a{
 	}
 	.materials{
 		width: 100%;
+		
 		margin-top: 20px;
-
+		font-size: 25px;
 
 
 	}
