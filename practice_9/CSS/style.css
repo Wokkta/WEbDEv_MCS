@@ -46,8 +46,9 @@ line-height: 29px;
 	text-align: center;
 	border:5px solid black;
 	height: 300px;
-	width: calc((100% - 100px)/4);
+	width: calc((100% - 100px)/2);
 	max-width: 600px;
+	
 	
 
 }
@@ -57,12 +58,13 @@ line-height: 29px;
 	justify-content: space-around;
 	margin:auto;
 	
-	padding-top: 102px;
-	padding-bottom:102px;
+	padding-top: 10px;
+	padding-bottom:10px;
 
 
 	
 }
+
 a{
 	color:white;
 	text-decoration: none;
@@ -77,6 +79,8 @@ a{
 		width: calc(100%-46px);
 		flex-direction: column;
 		text-align: center;
+		padding-bottom:0;
+		padding-top: 0;
 
 
 		
@@ -84,10 +88,10 @@ a{
 	.materials{
 		width: 100%;
 		
-		margin-top: 20px;
+		margin-top: 31px;
 		font-size: 25px;
 		height: 165px;
-		
+		margin-bottom:10px;
 
 
 	}
