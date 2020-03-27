@@ -1,28 +1,109 @@
 @import url(reset.css);
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+}
+.header{
+	height: 100px;
+	background-color: #0000FF;
+	width: 100vw;
+	color:white;
+align-items: center;
+font-family: Helvetica;
+font-size: 25px;
+line-height: 29px;
+display: flex;
 
-.main{
+
+}
+.footer_stoper{
+  height: calc(100vh-200px);
+}
+footer{
+	
+	height: 100px;
+	background-color: #0000FF;
+	width: 100vw;
+	color:white;
 	display: flex;
-	width:1000px;
-	height: 1000px;
+	justify-content: space-between;
+	align-items: center;
+text-align: center;
+font-family: Helvetica;
+font-size: 25px;
+line-height: 29px;
+}
+.materials{
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: calc(100vw/38);
+	line-height: 57px;
+
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border:5px solid black;
+	height: 300px;
+	width: calc((100% - 100px)/2);
+	max-width: 600px;
+	
+	
+
+}
+.content{
+	display: flex;
 	justify-content: space-around;
+	margin:auto;
+	
+	padding-top: 25px;
+	padding-bottom:25px;
+	width: calc(100% - calc(50%));
+
+
+	
 }
-.a{
-	background-color: blue;
-	width: 100px;
-	height: 100px;
+
+a{
+	color:white;
+	text-decoration: none;
 }
-.b{
-	background-color: red;
-	width: 100px;
-	height: 100px;
+@media screen and (max-width: 600px){
+	header	{
+		width: 100%;
+		background-color: black;
+
+	}
+	.content{
+		width: calc(100%-46px);
+		flex-direction: column;
+		text-align: center;
+		padding-bottom:0;
+		padding-top: 0;
+    height: 165px;
+
+
+		
+	}
+	.materials{
+		width: 100%;
+		
+		margin-top: 31px;
+		font-size: 25px;
+		height: 165px;
+		margin-bottom:10px;
+
+
+	}
 }
-.third{
-	background-color: orange;
-	width: 100px;
-	height: 100px;
+@media screen and (max-width: 1904px){
+	.content{
+	 /*width: calc(100% - 100px);*/
+	padding-top: 10px;
+	padding-bottom:10px;
 }
-.d{
-	background-color: yellow;
-	width: 100px;
-	height: 100px;
 }
