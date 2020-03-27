@@ -84,7 +84,7 @@ a{
 		text-align: center;
 		padding-bottom:0;
 		padding-top: 0;
-    height: 165px;
+    
 
 
 		
@@ -96,6 +96,7 @@ a{
 		font-size: 25px;
 		height: 165px;
 		margin-bottom:10px;
+		line-height: 40px;
 
 
 	}
