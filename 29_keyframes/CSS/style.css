@@ -24,11 +24,11 @@ body{
 	background-color: orange;
 	border-radius: 100px;
 	position: relative;
-	/*
+	
 	animation-name: moving;
 	animation-duration: 2s;
 	animation-delay:.5s;
 	animation-direction: alternate;
-	animation-iteration-count: infinite;*/
+	animation-iteration-count: infinite;
 	animation: moving 2s ease-in-out  .5s infinite alternate;
 }

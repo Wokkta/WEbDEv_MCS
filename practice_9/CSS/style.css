@@ -48,7 +48,7 @@ line-height: 29px;
 	align-items: center;
 	text-align: center;
 	border:5px solid black;
-	height: 300px;
+	
 	width: calc((100% - 100px)/2);
 	max-width: 600px;
 	
@@ -94,7 +94,7 @@ a{
 		
 		margin-top: 31px;
 		font-size: 25px;
-		height: 165px;
+		
 		margin-bottom:10px;
 		line-height: 40px;
 
