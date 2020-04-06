@@ -24,9 +24,12 @@ font-size: 40px;
 }
 
 .content{
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin:auto;
 	width: 1440px;
-	height: 643px;
+	height: calc(1024px - 180px);
 	padding-bottom: 100%;
 	background-size: cover ;
 	background-repeat: no-repeat;
@@ -34,6 +37,7 @@ font-size: 40px;
 	background-image:  url(Img/background.jpg);
 	background-color:blue ;
 	padding-top: 90px;
+	padding-bottom:10px ;/*двигает footer*/
 	}
 .congratulations{
 	display: flex;
@@ -45,6 +49,7 @@ color: #FEB700;
 top: 763px;
 font-size: 50px;
 line-height: 57px;
+margin-top: 181px;
 
 }
 .header_choise{
@@ -53,22 +58,24 @@ line-height: 57px;
 	justify-content: space-around;
 }
 .reguest{
-	
-	width: 300px;
+	display: block;
+	width: calc(300px);
 	background: #F8BFC7;
 border: 3px solid #FFFFFF;
 box-sizing: border-box;
 border-radius: 20px;
+margin-bottom: 10px;
 }
 input,select,textarea{
 	display: block;
-	width: 100%;
+	width: 280px;
 	font-size: 20px;
 	color:darkgrey;
 	border: 1px solid black;
 }
 input{
 	height: 30px;
+	width: 280px;
 }
 label,span,fieldset{
 	line-height: 2rem;
@@ -108,4 +115,9 @@ input[type="submit"]:hover{
 a{
 	text-decoration: none;
 	color: white;
+}
+input[type="email"]{
+	width: 280px;
+	margin-left: 7.5px;
+	margin-bottom: 4px;
 }
