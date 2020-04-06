@@ -9,11 +9,30 @@
 </head>
 <body>
 	<div class="header">
+		<div class="header_choise">
 		<div class="name">My feed</div>
+		<div class="name">My feed</div>
+		<div class="name">My feed</div>
+		</div>
 		<div class="name">Menu</div>
 	</div>
 	<div class="content">
-	<section class="reguest"></section>
+	<section class="reguest">
+		<fieldset class="personal">
+			<label for="fio">Имя</label>
+			<input type="text" name="fio" placeholder="Ivan Ivanov">
+			<label for="city">Город</label>
+			<input type="text" name="city" placeholder="Москва">
+			<label for="purpose">Подарок</label>
+			<select name="purpose" >
+				<option value="good">Книга в твердом переплете</option>
+				<option value="good">Книга в мягком переплете</option>
+			</select>
+			<label for="email">E-mail</label>
+			<input type="email" name="email" placeholder="yo@example.com">
+		</fieldset>
+		<input type="submit">
+	</section>
 	<div class="congratulations">Ваша посылка уже в пути!</div>
 	</div>
 	<footer>
