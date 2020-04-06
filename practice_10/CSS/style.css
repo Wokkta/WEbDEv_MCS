@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 	text-align: center;
 font-family: Helvetica;
-font-size: 20px;
+font-size: 400px;
 line-height: 23px;
 
 }
@@ -14,17 +14,26 @@ line-height: 23px;
 height: 90px;
 background: #F8BFC7;
 margin:auto;
+font-size: 40px;
+
+
 }
+.page{
+
+
+}
+
 .content{
 
 	width: 1440px;
-height: 643px;
+	height: 643px;
 	padding-bottom: 100%;
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-image:  url(Img/background.jpg);
 	background-color:blue ;
+	padding-top: 90px;
 	}
 .congratulations{
 	display: flex;
@@ -44,7 +53,12 @@ line-height: 57px;
 	justify-content: space-around;
 }
 .reguest{
+	
 	width: 300px;
+	background: #F8BFC7;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 20px;
 }
 input,select,textarea{
 	display: block;
@@ -86,7 +100,12 @@ input[type="submit"]{
 	cursor:pointer;
 	border: 3px solid #FFFFFF;
 	border-radius: 30px;
+	width: 300px;
 }
 input[type="submit"]:hover{
 
+}
+a{
+	text-decoration: none;
+	color: white;
 }
