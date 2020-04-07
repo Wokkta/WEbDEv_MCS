@@ -14,12 +14,13 @@ line-height: 23px;
 height: 90px;
 background: #F8BFC7;
 margin:auto;
-font-size: 40px;
+font-size: 20px;
+
 
 
 }
 .page{
-
+	width: 1440px;
 
 }
 
@@ -29,12 +30,15 @@ font-size: 40px;
 	align-items: center;
 	margin:auto;
 	width: 1440px;
-	height: calc(1024px - 180px);
+	width: 1440px;
+height: 643px;
+
+	
 	padding-bottom: 100%;
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-position:center;
-	background-image:  url(Img/background.jpg);
+	background-image:  url(https://wokkta.github.io/WEbDEv_MCS/practice_10/Img/background.jpg);
 	background-color:blue ;
 	padding-top: 90px;
 	padding-bottom:10px ;/*двигает footer*/
@@ -54,8 +58,15 @@ margin-top: 181px;
 }
 .header_choise{
 	display: flex;
-	width: calc((100%/3) - 350px);
-	justify-content: space-around;
+	width: calc((100%/2) - 350px);
+	justify-content: space-between;
+	
+}
+.name.Menu{
+	padding-left: 300px;
+}
+.name{
+	width: calc((100%/3) - 10px);
 }
 .reguest{
 	display: block;
