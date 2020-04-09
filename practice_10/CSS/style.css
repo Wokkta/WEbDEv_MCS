@@ -151,7 +151,9 @@ input[type="email"]{
 	height: 100vh;
 
 }
-
+.reguest{
+	align-self: flex-start;
+}
 .content{
 	display: flex;
 	flex-direction: column;
@@ -169,7 +171,7 @@ input[type="email"]{
 	background-color:blue ;
 	padding-top: 90px;
 	padding-bottom:10px ;/*двигает footer*/
-	align-items:  center;
+	
 	}
 .congratulations{
 	display: flex;
@@ -185,6 +187,9 @@ font-size: 50px;
 line-height: 57px;
 margin-top: calc(100vh - calc(100vh - 795px));
 
+}
+input[type="submit"]{
+	align-self: flex-start;
 }
 
 }
