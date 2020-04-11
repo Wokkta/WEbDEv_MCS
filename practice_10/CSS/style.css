@@ -12,10 +12,11 @@ line-height: 23px;
 	justify-content: space-between;
 	align-items: center;
 height: 90px;
-background: #F8BFC7;
+background: black;
 padding: 0 10px;
 font-size: 20px;
 width: 100vw;
+color: white;
 
 
 
@@ -54,7 +55,7 @@ min-height: 264px;
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-position:center;
-	background-color:blue ;
+	background-color:white ;
 	padding-top: 90px;
 	padding-bottom:10px ;/*двигает footer*/
 	align-items:  center;
@@ -66,9 +67,7 @@ min-height: 264px;
 
 	
 }
-.header a{
-	color: black;
-}
+
 .congratulations{
 	display: flex;
 align-items: center;
@@ -151,6 +150,20 @@ input[type="email"]{
 	width:100vw;
 	height: 100vh;
 
+}
+.header,footer{
+
+background: #F8BFC7;
+
+
+
+
+}
+.header a{
+	color: black;
+}
+footer{
+	color: white;
 }
 .reguest{
 	align-self: flex-start;
