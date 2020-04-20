@@ -23,17 +23,27 @@ line-height: 69px;
 
 letter-spacing: -0.05em;
 color: white;
-background-color: red;
-width: calc(100vw - 120px);
+
 	margin:auto;
 	margin-top:118px;
-	margin-bottom: 157px;
+	margin-bottom: 50px;
+}
+.time{
+	margin-bottom: 50px;
 }
 .logo{
-	width: calc(100vw - 20px);
 	color:white;
+	background-color: red;
 
 
+}
+.lenth{
+	margin: 50px 0px 50px 0px;
+}
+.date{
+	margin: 50px 0px 0px 0px;
+	display: flex;
+	justify-content: flex-start;
 }
 a{
 	text-decoration: none;
@@ -50,4 +60,21 @@ a{
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-position:center;
+}
+.why{
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 2px 20px 0px;
+}
+.content{
+}
+@media screen and(min-width: 604px){
+	header{
+
+	}
+	.content{
+		display: flex;
+		justify-content: center;
+		max-width: 30em;
+}
 }
