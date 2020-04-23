@@ -28,7 +28,7 @@ color: white;
 	margin-bottom: 157px;
 }
 .logo{
-	width: calc(100vw - 10px);
+	width:  239px;;
 	background-color: red;
 
 
@@ -53,7 +53,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 35px;
-width: 100vw;
+
 	
 
 }
@@ -73,6 +73,7 @@ a{
 	display: flex;
 	justify-content: space-around;
 	align-self: center;
+
 }
 .medias{
 	height: 30px;
@@ -84,4 +85,10 @@ a{
 	display: flex;
 
 	justify-content: center;
+}
+@media screen and (min-width: 604px){
+	.categories:hover{
+		background-color: red;
+
+	}
 }
