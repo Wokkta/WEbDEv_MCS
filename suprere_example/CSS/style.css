@@ -20,14 +20,17 @@ line-height: 69px;
 
 letter-spacing: -0.05em;
 color: white;
-background-color: red;
-width: calc(100vw - 120px);
+
+
 	margin:auto;
 	margin-top:118px;
 	margin-bottom: 157px;
 }
 .logo{
 	width: calc(100vw - 20px);
+	background-color: red;
+
+
 
 }
 body{
@@ -39,10 +42,22 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 35px;
+width: 100vw;
+	
+
 }
 .nav{
 	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
 	align-items: center;
 	height: 315px;
 	width: 307px;
+}
+a{
+	text-decoration: none;
+	color:white;
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
 }
