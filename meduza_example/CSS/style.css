@@ -10,19 +10,6 @@ a{
 div{
 	color:white;
 }
-.copyright{
-	border-top: 1px solid white;
-	color: white;
-	font-family: (null);
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 18px;
-letter-spacing: -0.05em;
-height: 36px;
-
-
-}
 body{
 	background-color: black;
 	display: flex;
@@ -104,5 +91,19 @@ nav{
 .search_or_change{
 	display: flex;
 	justify-content: space-around;
+
+}
+.copyright{
+	border-top: 1px solid white;
+	color: white;
+	font-family: (null);
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.05em;
+height: 36px;
+width: 100vw;
+
 
 }
