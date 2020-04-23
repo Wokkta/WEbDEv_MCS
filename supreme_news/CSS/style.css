@@ -55,7 +55,8 @@ a{
 	width: calc(390px - 20px);
 	margin:auto;
 	height: 260px;
-	background-color:black;
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/supreme_news/Img/image_1.png);
+
 
 	background-size: cover ;
 	background-repeat: no-repeat;
@@ -95,8 +96,6 @@ a{
 	width: calc(390px - 20px);
 	margin:auto;
 	height: 260px;
-	background-color:black;
-
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-position:center;
@@ -149,5 +148,11 @@ footer{
 	justify-content: space-around;
 	width: calc(100vw - 700px);
 	margin-left: 346px;
+}
+.footer a {
+	display: flex;
+	justify-content: space-around;
+		width: calc((100%/9) - 10px);
+
 }
 }
