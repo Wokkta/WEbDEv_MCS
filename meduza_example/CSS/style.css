@@ -1,0 +1,108 @@
+@import url(reset.css);
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: green;
+}
+div{
+	color:white;
+}
+.copyright{
+	border-top: 1px solid white;
+	color: white;
+	font-family: (null);
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.05em;
+height: 36px;
+
+
+}
+body{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo{
+	width: calc(100vw/3 - 10px);
+	display: flex;
+	justify-content: flex-start;
+	color: white;
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.content_inner_level_2 {
+	background-color: white;
+	width: 1320px;
+	display: flex;
+	flex-direction: column;
+	align-items:center; 
+	width: 1320px;
+	height: 1310px;
+
+
+background: #F2F2F2;
+border-radius: 10px 10px 0px 0px;
+
+}
+.content_inner_level_1{
+	width: 1320px;
+	height: 56px;
+	background-color: red;
+	width: 1320px
+	border-radius: 10px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin: 0px 10px 0px 10px;
+}
+.info{
+	width: 1200px;
+	height: 436px;	
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+}
+footer a{
+	color: white;
+} 
+.big_one{
+	font-family: PF Regal Text Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 50px;
+}
+.line{
+	display: flex;
+	justify-content: space-around;
+
+}
+.columns{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.categories{
+	width: calc(100%/3 - 10px);
+	display: flex;
+	justify-content: space-around;
+}
+nav{
+	display: flex;
+	width: 100vw;
+	justify-content: space-around;
+	height: 90px;
+	align-items: center;
+}
+.search_or_change{
+	display: flex;
+	justify-content: space-around;
+
+}
