@@ -20,7 +20,7 @@ body{
 	align-items: center;
 }
 .logo{
-	width: calc(100vw/3 - 10px);
+	width: calc(100vw/4 - 10px);
 	display: flex;
 	justify-content: flex-start;
 	color: white;
@@ -89,18 +89,19 @@ flex-grow: 1;
 	align-items: center;
 }
 .categories{
-	width: calc(100%/3 - 10px);
+	width: calc(100%/2 - 10px);
 	display: flex;
 	justify-content: space-around;
 }
 nav{
 	display: flex;
-	width: 100vw;
 	justify-content: space-around;
 	height: 90px;
 	align-items: center;
+	width: 1320px;
 }
 .search_or_change{
+
 	display: flex;
 	justify-content: space-around;
 
