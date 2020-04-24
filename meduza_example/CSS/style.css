@@ -5,7 +5,10 @@
 }
 a{
 	text-decoration: none;
-	color: green;
+	color: black;
+}
+.categories a{
+	color: white;
 }
 div{
 	color:white;
@@ -24,6 +27,7 @@ body{
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-position:center;
+	color: #A37846;
 }
 .content_inner_level_2 {
 	background-color: white;
@@ -42,19 +46,25 @@ border-radius: 10px 10px 0px 0px;
 .content_inner_level_1{
 	width: 1320px;
 	height: 56px;
-	background-color: red;
-	width: 1320px
+	background-color: white;
+	width: 1320px;
 	border-radius: 10px;
 	justify-content: space-between;
 	display: flex;
 	align-items: center;
-	margin: 0px 10px 0px 10px;
+	margin: 0px 10px 15px 10px;
+	color: black;
+}
+.content_inner_level_1 div{
+	color: black;
 }
 .info{
 	width: 1200px;
 	height: 436px;	
 	border: 1px solid #9CA1A9;
 	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
 }
 footer a{
 	color: white;
@@ -65,10 +75,12 @@ font-style: normal;
 font-weight: normal;
 font-size: 50px;
 line-height: 50px;
+flex-grow: 1;
 }
 .line{
 	display: flex;
 	justify-content: space-around;
+	margin-top: 20px;
 
 }
 .columns{
@@ -106,4 +118,7 @@ height: 36px;
 width: 100vw;
 
 
+}
+a:active{
+	color: #A37846;
 }
