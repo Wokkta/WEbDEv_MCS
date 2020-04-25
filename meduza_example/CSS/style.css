@@ -1,6 +1,6 @@
 @import url(reset.css);
 *{
-	box-sizing: border-box;
+
 	text-align: center;
 }
 a{
@@ -58,9 +58,36 @@ border-radius: 10px 10px 0px 0px;
 .content_inner_level_1 div{
 	color: black;
 }
+.content_inner_level_1:hover{
+	border: 5px solid #A37846;;
+	border-radius: 10px;
+}
+.info_1:hover  ,.info:hover{
+	border: 5px solid #A37846;;
+	border-radius: 10px;
+}
+.categories a:hover{
+	color: #A37846;
+}
+
 .info{
 	width: 1200px;
 	height: 436px;	
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.info_1_holder{
+	width: 1200px;
+	height: 436px;	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.info_1{
+	width: 1200px;
+	height: 250px;	
 	border: 1px solid #9CA1A9;
 	border-radius: 10px;
 	display: flex;
