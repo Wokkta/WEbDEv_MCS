@@ -28,9 +28,8 @@ color: white;
 	margin-bottom: 157px;
 }
 .logo{
-	width:  239px;;
+	width:  239px;
 	background-color: red;
-
 
 
 
@@ -46,6 +45,8 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+
 }
 .categories{
 	font-family: Space Mono;
@@ -59,22 +60,12 @@ text-align: left;
 
 }
 .nav{
-
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content:space-around;
-	align-items: center;
-	align-self: center;
 	height: 315px;
-	width: 307px;
-	text-align: left;
-}
+	}
 a{
 	text-decoration: none;
 	color:white;
-	display: flex;
-	justify-content: space-around;
+
 	text-align: left;
 	
 
@@ -90,9 +81,20 @@ a{
 
 	justify-content: center;
 }
-@media screen and (min-width: 604px){
-	.categories:hover{
+.categories:hover{
 		background-color: red;
 
 	}
+@media screen and (max-width:400px){
+	.categories:hover{
+		background-color: black;
+
+	}
+	.nav{
+	width:  100vw;
+	margin-left: 10px;
+}
+.logo{
+	width: 100vw;
+}
 }
