@@ -80,6 +80,7 @@ a{
 	display: flex;
 
 	justify-content: center;
+	background-color: black;
 }
 .categories:hover{
 		background-color: red;

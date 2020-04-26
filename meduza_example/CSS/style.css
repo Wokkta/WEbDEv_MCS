@@ -62,7 +62,7 @@ background: #F2F2F2;
 border-radius: 10px 10px 0px 0px;
 
 }
-.content_inner_level_1{
+.inner_level_1{
 	width: 1320px;
 	height: 56px;
 	background-color: white;
@@ -103,11 +103,18 @@ border-radius: 10px 10px 0px 0px;
 
 	
 }
+.En{
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/meduza_example/Img/En.png);
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+}
 .small_part{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: calc(100%/2);
+	width: calc(100%/2 - 20px);
+	padding-right: 10px;
 	}
 .small_part a{
 	height: calc(100%/2);
