@@ -103,8 +103,14 @@ border-radius: 10px 10px 0px 0px;
 
 	
 }
+.search{
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/suprere_example/Img/search.png);
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+}
 .En{
-	background-image: url(https://wokkta.github.io/WEbDEv_MCS/meduza_example/Img/En.png);
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/suprere_example/Img/En.png);
 	background-size: cover ;
 	background-repeat: no-repeat;
 	background-position:center;
