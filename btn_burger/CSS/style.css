@@ -1,0 +1,25 @@
+@import url(reset.css);
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+.header_btn{
+	width: 60px;
+	height: 60px;
+	border: 1px solid white;
+	margin-top: 31px;
+	background: rgba(255, 255, 255, 0.1);
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	flex-direction: column;
+	justify-content: center;
+}
+.header_btn div{
+	height: 2px;
+	width: 32px;
+	background-color: #fff;
+	margin:5px 0px;
+}
