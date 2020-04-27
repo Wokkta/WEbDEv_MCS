@@ -80,9 +80,8 @@ a{
 	display: flex;
 
 	justify-content: center;
-	background-color: black;
 }
-.categories:hover{
+a:hover{
 		background-color: red;
 
 	}

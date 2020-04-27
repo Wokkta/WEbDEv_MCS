@@ -73,6 +73,10 @@ a{
 	display: none;
 
 }
+.red_one{
+	display: none;
+	
+}
 .lenth{
 	display: none
 }
@@ -80,14 +84,24 @@ a{
 	display: flex;
 }
 @media screen and (min-width: 604px){
-	header{
+	
+	.red_one{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
 
-	}
+	
+}
+.red_one a{
+	color: white;
+	background-color: red;
+}
 	.content{
 		display: flex;
 		justify-content: center;
 		max-width: 30em;
-		
+}
+	 	
 
 }
 .image{
