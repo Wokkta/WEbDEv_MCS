@@ -75,6 +75,9 @@ text-align: center;
 
 color: #9CA1A9;
 }
+.nothing{
+	color: black;
+}
 .small_part .time_gone{
 	
 	font-family: (null);
@@ -90,6 +93,9 @@ color: #9CA1A9;
 }
 .yes div{
 	color:black;
+}
+.line{
+	margin-bottom: 68px;
 }
 .content_inner_level_1{
 	width: 1320px;
@@ -225,7 +231,6 @@ width: 100vw;
 display: flex;
 align-items: center;
 justify-content: center;
-
 
 }
 a:active{
