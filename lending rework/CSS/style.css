@@ -14,10 +14,9 @@ body
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  min-width: 100vw;
 }
-.header{
-	width: 100vw;
-}
+
 ul
 {
   position: relative;
@@ -85,6 +84,7 @@ ul li:nth-child(6n+2) a:before
 }
 ul li:nth-child(6n+3) a:before
 {
+
   background: #55efc4;
 }
 ul li:nth-child(6n+4) a:before
@@ -98,4 +98,31 @@ ul li:nth-child(6n+5) a:before
 ul li:nth-child(6n+6) a:before
 {
   background: #ffeaa7;
+}
+.inner_hiden_menu:before{
+	content: '';
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: rgba(0,0,0,.1);
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 500px;
+  transition: letter-spacing 0.5s,left 0.5s;
+}
+.inner_hiden_menu:hover:before{
+	content: attr(data-text);
+	display: flex;
+  opacity: 1;
+  left: 70%;
+  letter-spacing: 10px;
+  height: 20vh;
 }
