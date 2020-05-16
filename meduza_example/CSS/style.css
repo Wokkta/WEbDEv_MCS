@@ -1,0 +1,238 @@
+@import url(reset.css);
+*{
+
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.categories a{
+	color: white;
+}
+div{
+	color:white;
+}
+body{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo{
+	width: calc(100%/4 - 10px);
+}
+.logo a{
+	width: 95px;
+	display: flex;
+	justify-content: flex-start;
+	color: white;
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/meduza_example/Img/image_1.png);
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+
+	color: #A37846;
+	height: 20px;
+	color: black;
+}
+.money{
+	font-family: (null);
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+
+color: #9CA1A9;
+}
+.content_inner_level_2 {
+	background-color: white;
+	width: 1320px;
+	display: flex;
+	flex-direction: column;
+	align-items:center; 
+	justify-content: space-around;
+	height: 1080px;
+	padding-top: 20px;
+	padding-bottom:  20px;
+	
+
+
+background: #F2F2F2;
+border-radius: 10px 10px 0px 0px;
+
+}
+.time_gone{
+	
+	font-family: (null);
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #9CA1A9;
+}
+.nothing{
+	color: black;
+}
+.small_part .time_gone{
+	
+	font-family: (null);
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #9CA1A9;
+}
+.yes div{
+	color:black;
+}
+.line{
+	margin-bottom: 68px;
+}
+.content_inner_level_1{
+	width: 1320px;
+	height: 56px;
+	background-color: white;
+		border-radius: 10px;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	margin: 0px 10px 15px 10px;
+	color: black;
+}
+.content_inner_level_1 div{
+	color:black;
+}
+
+.info_1:hover  ,.info:hover{
+	border: 5px solid #A37846;;
+	border-radius: 10px;
+}
+.categories a:hover{
+	color: #A37846;
+}
+
+.info{
+	width: 1200px;
+	height: calc((100% - 250px)/2 - 20px);	
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.info_1{
+	width: 1200px;
+	height: 250px;	
+	border: 1px solid #9CA1A9;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	
+}
+.search{
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/suprere_example/Img/search.png);
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.yes{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.En{
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/suprere_example/Img/En.png);
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.small_part{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: calc(100%/2 - 20px);
+	padding-right: 10px;
+	}
+.small_part div{
+	height: calc(100%/2);
+	width: calc(100%/2);
+}
+footer a{
+	color: white;
+} 
+.big_one{
+	font-family: PF Regal Text Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 50px;
+flex-grow: 1;
+width: calc(100%/2);
+
+
+
+}
+.big_one .time_gone{
+	margin-top: 90px;
+
+}
+.line{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+
+}
+.columns{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.categories{
+	width: calc(100%/2 - 10px);
+	display: flex;
+	justify-content: space-around;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	height: 90px;
+	align-items: center;
+	width: 1320px;
+}
+.search_or_change{
+
+	display: flex;
+	justify-content: space-around;
+
+}
+.copyrigth{
+	border-top: 1px solid white;
+	color: white;
+	font-family: (null);
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: -0.05em;
+height: 73px;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+a:active{
+	color: #A37846;
+}

@@ -1,0 +1,100 @@
+@import url(reset.css);
+*{
+	box-sizing: border-box;
+	text-align: left;
+}
+div{
+	text-align: center;
+	color: white;
+
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	font-family: Arial;
+font-style: italic;
+font-weight: bold;
+font-size: 50px;
+line-height: 69px;
+background-color: red;
+
+letter-spacing: -0.05em;
+color: white;
+
+
+	margin:auto;
+	margin-top:80px;
+	margin-bottom: 157px;
+}
+.logo{
+	width:  239px;
+	background-color: red;
+
+
+
+}
+footer{
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+body{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.categories{
+	font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 35px;
+text-align: left;
+
+	
+
+}
+.nav{
+	height: 315px;
+	}
+a{
+	text-decoration: none;
+	color:white;
+
+	text-align: left;
+	
+
+}
+.medias{
+	height: 30px;
+	width: 30px;
+	background-image: url((https://wokkta.github.io/WEbDEv_MCS/suprere_example/Img/facebook.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+	display: flex;
+
+	justify-content: center;
+}
+a:hover{
+		background-color: red;
+
+	}
+@media screen and (max-width:400px){
+	.categories:hover{
+		background-color: black;
+
+	}
+	.nav{
+	width:  100vw;
+	margin-left: 10px;
+}
+.logo{
+	width: 100vw;
+}
+}

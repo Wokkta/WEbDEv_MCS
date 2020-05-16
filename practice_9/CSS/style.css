@@ -20,7 +20,9 @@ display: flex;
 
 }
 .footer_stoper{
-  height: calc(100vh-200px);
+  height: calc(100vh - 200px);
+	position: center;
+	padding-top: calc(100%/7);
 }
 footer{
 	
@@ -94,9 +96,17 @@ a{
 		
 		margin-top: 31px;
 		font-size: 25px;
+
+		height: 165px;
+		margin-bottom:10px;
+		line-height: 40px;
+
+
+
 		
 		margin-bottom:10px;
 		line-height: 40px;
+
 
 
 	}
@@ -106,5 +116,4 @@ a{
 	 /*width: calc(100% - 100px);*/
 	padding-top: 10px;
 	padding-bottom:10px;
-}
 }

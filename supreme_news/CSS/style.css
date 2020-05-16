@@ -1,0 +1,172 @@
+@import url(reset.css);
+*{
+	box-sizing: border-box;
+	font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+div{
+	text-align: center;
+
+}
+header{
+	display: flex;
+	justify-content: center;
+	font-family: Arial;
+font-style: italic;
+font-weight: bold;
+font-size: 60px;
+line-height: 69px;
+/* identical to box height */
+
+letter-spacing: -0.05em;
+color: white;
+
+	margin:auto;
+	margin-top:118px;
+	margin-bottom: 50px;
+}
+.time{
+	margin-bottom: 50px;
+}
+.logo{
+	color:white;
+	background-color: red;
+
+
+}
+.lenth{
+	margin: 50px 0px 50px 0px;
+}
+.date{
+	margin: 50px 0px 0px 0px;
+	display: flex;
+	justify-content: flex-start;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.image{
+	display: flex;
+	justify-content: center;
+	width: calc(390px - 20px);
+	margin:auto;
+	height: 260px;
+	background-image: url(https://wokkta.github.io/WEbDEv_MCS/supreme_news/Img/image_1.png);
+
+
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.why{
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 2px 20px 0px;
+}
+.content{
+}
+.date_text{
+	display: none;
+
+}
+.red_one{
+	display: none;
+	
+}
+.lenth{
+	display: none
+}
+.date_text_1{
+	display: flex;
+}
+@media screen and (min-width: 604px){
+	
+	.red_one{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+
+	
+}
+.red_one a{
+	color: white;
+	background-color: red;
+}
+	.content{
+		display: flex;
+		justify-content: center;
+		max-width: 30em;
+}
+	 	
+
+}
+.image{
+	display:flex;
+
+	width: calc(390px - 20px);
+	margin:auto;
+	height: 260px;
+	background-size: cover ;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.page{
+	display: flex;
+	justify-content: center;
+}
+.lenth{
+	display:block;
+	  margin: 50px 475px 0px 0px
+}
+.date_text{
+	display: flex;
+
+}
+.date{
+	display: none;
+}
+.time{
+	margin-top:-32px;
+	margin-bottom: 72px;
+}
+.page_all{
+		display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 80%;
+}
+.lenth_1{
+	display: none;
+}
+.date_text_1{
+	display:none;
+}
+.why{
+	font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+
+}
+.content_1{
+	margin-left: 5px;
+}
+footer{
+	margin-top: 20vh;
+	display: flex;
+	justify-content: space-around;
+	width: calc(100vw - 700px);
+	margin-left: 346px;
+}
+.footer a {
+	display: flex;
+	justify-content: space-around;
+		width: calc((100%/9) - 10px);
+
+}
+}
